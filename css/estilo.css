@@ -1,15 +1,20 @@
 body{
 	background-color: #4A4D45;
-	width: 1200px;
+	width: 1000px;
 	margin:auto;
 }
 
 header{ 
-	background-color:red;
 	width: 100%;
 	height:	300px;
 	border-radius: 10px 10px 1px 1px;
 	margin-top: 10px;
+}
+.banco{
+	margin-left: 0px;
+	margin-top: 0px;
+	width:1000px;
+	height:300px;
 }
 
 nav{
@@ -26,7 +31,7 @@ nav{
 
 .menu{
 	float: left;
-	margin-left: 140px;
+	margin-left: 100px;
 	color:black;
 	font-size: 25px;
 	margin-top: 30px;
@@ -34,7 +39,7 @@ nav{
 
 aside{
 	margin-top: 10px;
-	width: 40%;
+	width: 430px;
 	height:	730px;
 	border-radius: 10px;
 	float: left; 
@@ -42,7 +47,7 @@ aside{
 .ingresa{
 	float: left;
 	margin-bottom: 10px;
-	width: 460px;
+	width: 410px;
 	height: 20px;
 	background-color: black;
 	border-radius: 20px 20px 0px 0px;
@@ -51,45 +56,59 @@ aside{
 	padding: 10px
 }
 #ar1{
-	width: 480px;
+	width:auto;
 	height: 335px;
 	background-color: grey;
 }
 #ar2{
-	width: 480px;
-	height: 355px;
-	background-color: black;
-	margin-top: -10px;
+	padding: 5px;
+	width: auto;
+	height: 345px;
+	background-color: #1c1c1c;
+	margin-top: 10px;
+	color: grey;
+	text-align: center;
+	font-size: 14px;
+}
+hr{
+	width: 300px;
+	height:1px;
+	border:0;
+	color:black;
+	background-color: grey;
 }
 
 section{
 	margin-top: 10px;
-	width: 708px;
+	width: 560px;
 	height:	720px;
 	float: right;
 	margin-bottom: 10px
 }
 article{
-	width: 350px;
+	width: 275px;
 	height: 355px;
 	background-color: grey;
 }
 .nav1{
-	width: 350px;
+	width: 275px;
 	height: 40px;
 	float: left;
 	border-radius: 20px 0px 0px 0px;
+}
+.nav2{
+	width: 275px;
+	height: 40px;
+	float: right;
+	border-radius: 0px 20px 0px 0px;
+}
+#nav3{
+	border-radius: 0px 0px 0px 0px;
 }
 #a1{
 	float: left;
 	margin-bottom: 10px;
 	border-radius: 20px 0px 0px 0px;
-}
-.nav2{
-	width: 350px;
-	height: 40px;
-	float: right;
-	border-radius: 0px 20px 0px 0px;
 }
 #a2{
 	float: right;
@@ -97,7 +116,7 @@ article{
 	border-radius: 0px 20px 0px 0px;
 }
 input{
-	width: 200px;
+	width: 160px;
 	height: 25px;
 	float: right;
 	margin-right: 100px;
@@ -123,21 +142,9 @@ label{
 	margin-left: 80px;
 }
 
-.nav3{
-	width: 350px;
-	height: 40px;
-	float: left;
-	border-radius: 0px 0px 0px 0px;
-}
 #a3{
 	float: left;
 	border-radius: 0px 0px 0px 20px;
-}
-.nav4{
-	width: 350px;
-	height: 40px;
-	float: right;
-	border-radius: 0px 0px 0px 0px;
 }
 #a4{
 	float: right;
@@ -157,7 +164,26 @@ footer{
 	clear: both;
 	text-align: center;
 	font-family: arial;
-	font-size: 15px;
+	font-size: 14px;
 	white-space: normal;
 
+}
+img{
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 265px;
+	height: 150px;
+}
+#box-nav{
+	margin-left: -5px;
+	margin-top: -5px;
+	width:430px;
+	height:30px;
+	background:black;
+	border-radius: 0px 0px 0px 0px;
+	color: yellow;
+}
+.texto{
+
+	text-align: center;
 }
