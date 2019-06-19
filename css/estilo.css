@@ -183,6 +183,15 @@ img{
 	border-radius: 0px 0px 0px 0px;
 	color: yellow;
 }
+#box-nav2{
+	margin-left: -5px;
+	margin-top: -5px;
+	width:430px;
+	height:30px;
+	background:black;
+	border-radius: 0px 0px 0px 0px;
+	color: yellow;
+}
 .texto{
 
 	text-align: center;
